@@ -4,4 +4,5 @@
     <bool name="is_phone_other">false</bool>
     <bool name="is_tablet_7">true</bool>
     <bool name="is_tablet_10">false</bool>
+    <item name="main" type="layout">@layout/main_tablet_7</item>
 </resources>
