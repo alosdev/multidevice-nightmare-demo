@@ -1,4 +1,4 @@
-package de.alosdev.demo.multidevicenichtmare;
+package de.alosdev.demo.multidevicenightmare;
 
 import android.app.Activity;
 import android.os.Bundle;

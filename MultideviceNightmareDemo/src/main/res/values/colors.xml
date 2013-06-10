@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_view_bg1">#DDD</color>
+    <color name="custom_view_bg2">#789</color>
+    <color name="white">#fff</color>
+
+</resources>

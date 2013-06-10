@@ -4,15 +4,40 @@
                 android:layout_height="match_parent"
                 tools:context=".MainActivity">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="small phone"
-            android:gravity="center"
+    <!--suppress AndroidLintUnknownIdInLayout -->
+    <ScrollView
+            android:layout_above="@+id/footer"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
-            android:layout_above="@+id/footer"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:foregroundGravity="center">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <de.alosdev.demo.multidevicenightmare.CustomView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <de.alosdev.demo.multidevicenightmare.CustomView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <de.alosdev.demo.multidevicenightmare.CustomView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <de.alosdev.demo.multidevicenightmare.CustomView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
 
     <include layout="@layout/footer"/>
 </RelativeLayout>

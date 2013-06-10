@@ -5,4 +5,6 @@
     <bool name="is_tablet_7">true</bool>
     <bool name="is_tablet_10">false</bool>
     <item name="main" type="layout">@layout/main_tablet_7</item>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="custom_view_margin">8dp</dimen>
 </resources>
