@@ -25,13 +25,13 @@
         <de.alosdev.demo.multidevicenightmare.CustomView
                 android:layout_width="wrap_content"
                 app:label="Label 2"
-                app:value="desc 3"
+                app:value="desc 2"
                 android:layout_height="wrap_content"/>
 
         <de.alosdev.demo.multidevicenightmare.CustomView
                 android:layout_width="wrap_content"
                 app:label="Label 3"
-                app:orientation="vertical"
+                app:orientation="horizontal"
                 app:value="desc 3"
                 android:layout_height="wrap_content"/>
 
